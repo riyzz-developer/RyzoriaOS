@@ -3,3 +3,5 @@ lightdm
 network-manager
 network-manager-gnome
 sudo
+
+linux-image-amd64
