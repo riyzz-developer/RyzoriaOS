@@ -1,0 +1,5 @@
+NAME=RyzoriaOS
+VERSION=0.1
+CODENAME=Ryzoria
+BASE=Debian
+DESKTOP=XFCE

@@ -1,0 +1,33 @@
+/* RyzoriaOS v0.1 - Black/Blue Theme */
+
+@define-color ryzoria_black #0b0f14;
+@define-color ryzoria_blue #1683ff;
+@define-color ryzoria_blue_dark #0d47a1;
+@define-color ryzoria_text #e8f1ff;
+
+window,
+.background {
+    background-color: @ryzoria_black;
+    color: @ryzoria_text;
+}
+
+button {
+    background-color: #121a24;
+    color: @ryzoria_text;
+    border: 1px solid @ryzoria_blue_dark;
+}
+
+button:hover {
+    background-color: @ryzoria_blue_dark;
+}
+
+entry {
+    background-color: #101720;
+    color: @ryzoria_text;
+    border: 1px solid @ryzoria_blue_dark;
+}
+
+selection {
+    background-color: @ryzoria_blue;
+    color: white;
+}
